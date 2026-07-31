@@ -1,0 +1,25 @@
+# Controls what `gcloud run deploy --source .` uploads to Cloud Build.
+# Explicit (not auto-generated from .gitignore) because frontend/.env.production
+# is gitignored but MUST reach the Dockerfile's frontend-build stage --
+# Vite bakes VITE_ASK_API_BASE in at build time, so if this file is missing
+# from the upload, ask-mode silently falls back to the same-origin /api/ask
+# route, which doesn't exist on main_grading.py (404, no build-time error).
+.gcloudignore
+.git
+.gitignore
+
+backend/.venv/
+backend/**/__pycache__/
+*.pyc
+backend/.env
+
+# Never copied by this Dockerfile -- the grading service never loads the
+# generation model, so uploading the ~170MB adapter (safetensors + tokenizer
+# files) here would just slow down every deploy for no benefit. See
+# Dockerfile's own header comment.
+backend/artifacts/lora_adapter/
+
+frontend/node_modules/
+frontend/dist/
+
+hf_space/artifacts/

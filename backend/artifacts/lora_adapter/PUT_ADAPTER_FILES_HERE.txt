@@ -1,0 +1,16 @@
+Unzip robactutor_lora_adapters_BRI23222497.zip directly into this folder.
+
+You should end up with these files sitting right here, next to this text file:
+
+  adapter_config.json
+  adapter_model.safetensors
+  tokenizer.json
+  tokenizer.model
+  tokenizer_config.json
+  special_tokens_map.json
+  README.md   (the auto-generated PEFT model card — harmless to keep)
+
+Then set MOCK_MODEL=false in your .env file (or environment) and make sure
+you're running on a machine with a CUDA GPU and requirements-model.txt
+installed. See the main README.md, "Connecting the real model", for the
+full walkthrough.

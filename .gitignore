@@ -1,0 +1,20 @@
+# Editor / tooling (personal, machine-specific -- not project config)
+.claude/settings.local.json
+
+# Backend
+backend/.venv/
+backend/**/__pycache__/
+*.pyc
+backend/.env
+backend/artifacts/lora_adapter/*.safetensors
+backend/artifacts/lora_adapter/tokenizer*
+backend/artifacts/lora_adapter/special_tokens_map.json
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.production
+
+# HF Space deployment copy (large binaries, copied in locally before push --
+# see docs/deployment.md, same convention as backend/artifacts/lora_adapter/)
+hf_space/artifacts/

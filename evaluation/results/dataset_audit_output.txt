@@ -1,0 +1,158 @@
+﻿======================================================================
+RoBacTutor dataset quality audit
+======================================================================
+Total pairs: 157
+
+--- RELIABLE: fabricated citation ('ANCE <year>') ---
+157 / 157 (100.0%)
+By subject:
+  istorie               26 /  26 (100.0%)
+  limba_engleza         34 /  34 (100.0%)
+  limba_romana          73 /  73 (100.0%)
+  matematica            24 /  24 (100.0%)
+
+--- NOT reliable, needs manual review: 136 duplication candidates ---
+(sorted strongest match first -- read these yourself, don't cite this count directly)
+
+[istorie] "Subiect: Istoria românilor și universală (Profil Umanist)
+
+Itemul 4: C..."  (match ratio 1.00)
+   span A: '1p. x2 – menționează două'
+   span B: '1p. x2 – menționează două'
+   full response: **Răspuns și explicație (1 puncte):**
+
+Amplasarea în timp și spațiu a Amplasarea în timp (2 p) evenimentelor/proceselor/ 1p. x2 – menționează două date cronologice fenomenelor istorice. relevante. 4 puncte Amplasarea în spațiu (2) 1p. x2 – menționeaz...
+
+[istorie] "Subiect: Istoria românilor și universală (Profil Umanist)
+
+Itemul 4: E..."  (match ratio 1.00)
+   span A: '1p. x2 – menționează două'
+   span B: '1p. x2 – menționează două'
+   full response: **Răspuns și explicație (1 puncte):**
+
+Amplasarea în timp și spațiu a Amplasarea în timp (2 p) evenimentelor/proceselor/ 1p. x2 – menționează două date cronologice fenomenelor istorice. relevante. 4 puncte Amplasarea în spațiu (2) 1p. x2 – menționeaz...
+
+[limba_engleza] "Subiect: Limba engleză
+
+Itemul 3: According to the text, Brazilian art..."  (match ratio 1.00)
+   span A: 'puncte pentru respectarea volumului de'
+   span B: 'puncte pentru respectarea volumului de'
+   full response: **Răspuns și explicație (5 puncte):**
+
+Corectitudinea la nivel de competență lingvistică (componenta lexicală şi ortografică) - 5 puncte. Posedă şi ortografiază corect vocabularul necesar pentru a descrie 0 1 2 3 4 5 subiectul propus, conform sarcini...
+
+[limba_engleza] "Subiect: Limba engleză
+
+Itemul 4: According to the text, French artist..."  (match ratio 1.00)
+   span A: 'puncte pentru respectarea volumului de'
+   span B: 'puncte pentru respectarea volumului de'
+   full response: **Răspuns și explicație (4 puncte):**
+
+Corectitudinea la nivel de competenţă lingvistică (componenta gramaticală şi ortografică) - 4 puncte. Utilizează, ortografiază corect modurile, timpurile, formele şi 0 1 2 3 4 structurile gramaticale, conform sa...
+
+[limba_engleza] "Subiect: Limba engleză
+
+Itemul 3: What do the Portuguese artists’ stat..."  (match ratio 1.00)
+   span A: 'puncte pentru respectarea volumului de'
+   span B: 'puncte pentru respectarea volumului de'
+   full response: **Răspuns și explicație (5 puncte):**
+
+Corectitudinea la nivel de competență lingvistică (componenta lexicală şi ortografică) - 5 puncte. Posedă şi ortografiază corect vocabularul necesar pentru a descrie 0 1 2 3 4 5 subiectul propus, conform sarcini...
+
+[limba_engleza] "Subiect: Limba engleză
+
+Itemul 4: Which artist draws people’s attentio..."  (match ratio 1.00)
+   span A: 'puncte pentru respectarea volumului de'
+   span B: 'puncte pentru respectarea volumului de'
+   full response: **Răspuns și explicație (4 puncte):**
+
+Corectitudinea la nivel de competenţă lingvistică (componenta gramaticală şi ortografică) - 4 puncte. Utilizează, ortografiază corect modurile, timpurile, formele şi 0 1 2 3 4 structurile gramaticale, conform sa...
+
+[limba_engleza] "Subiect: Limba engleză
+
+Itemul 3: It is necessary to look after d) to ..."  (match ratio 1.00)
+   span A: 'puncte pentru respectarea volumului de'
+   span B: 'puncte pentru respectarea volumului de'
+   full response: **Răspuns și explicație (5 puncte):**
+
+Corectitudinea la nivel de competență lingvistică (componenta lexicală şi ortografică) - 5 puncte. Posedă şi ortografiază corect vocabularul necesar pentru a descrie 0 1 2 3 4 5 subiectul propus, conform sarcini...
+
+[limba_engleza] "Subiect: Limba engleză
+
+Itemul 4: Some Portuguese artists e) Roussel’s..."  (match ratio 1.00)
+   span A: 'puncte pentru respectarea volumului de'
+   span B: 'puncte pentru respectarea volumului de'
+   full response: **Răspuns și explicație (4 puncte):**
+
+Corectitudinea la nivel de competenţă lingvistică (componenta gramaticală şi ortografică) - 4 puncte. Utilizează, ortografiază corect modurile, timpurile, formele şi 0 1 2 3 4 structurile gramaticale, conform sa...
+
+[limba_engleza] "Subiect: Limba engleză
+
+Itemul 3: Art pieces made out of such material..."  (match ratio 1.00)
+   span A: 'puncte pentru respectarea volumului de'
+   span B: 'puncte pentru respectarea volumului de'
+   full response: **Răspuns și explicație (5 puncte):**
+
+Corectitudinea la nivel de competență lingvistică (componenta lexicală şi ortografică) - 5 puncte. Posedă şi ortografiază corect vocabularul necesar pentru a descrie 0 1 2 3 4 5 subiectul propus, conform sarcini...
+
+[limba_romana] "Subiect: Limba și literatura română
+
+Context:
+PROFIL REAL – 100 de pun..."  (match ratio 1.00)
+   span A: 'puncte, dacă au fost comise'
+   span B: 'puncte, dacă au fost comise'
+   full response: **Răspuns și explicație (5 puncte):**
+
+Corectitudinea Se acordă 5 puncte 2+3 5 puncte stilistică, alegerea pentru corespunderea 2 puncte pentru alegerea registrului stilistic adecvat textului produs. registrului stilistic textelor produse cu 3 puncte...
+
+[limba_romana] "Subiect: Limba și literatura română
+
+Context:
+PROFIL REAL – 100 de pun..."  (match ratio 1.00)
+   span A: 'puncte, dacă au fost comise'
+   span B: 'puncte, dacă au fost comise'
+   full response: **Răspuns și explicație (5 puncte):**
+
+Respectarea normelor Se acordă punctajul 5 5 puncte ortografice şi întreg (5 puncte), dacă Se va scădea câte 1 punct pentru fiecare 2 greşeli ortografice sau gramaticale. numărul de greşeli gramaticale. ortograf...
+
+[limba_romana] "Subiect: Limba și literatura română
+
+Context:
+PROFIL REAL – 100 de pun..."  (match ratio 1.00)
+   span A: 'puncte, dacă au fost comise'
+   span B: 'puncte, dacă au fost comise'
+   full response: **Răspuns și explicație (5 puncte):**
+
+Respectarea normelor Se acordă punctajul 5 5 puncte de punctuaţie. întreg (5 puncte), dacă Se va scădea câte 1 punct pentru fiecare 2 greşeli de punctuaţie. numărul de greşeli de • Se acordă 4 puncte, dacă au fo...
+
+[limba_romana] "Subiect: Limba și literatura română
+
+Context:
+PROFIL REAL – 100 de pun..."  (match ratio 1.00)
+   span A: 'puncte, dacă au fost comise'
+   span B: 'puncte, dacă au fost comise'
+   full response: **Răspuns și explicație (5 puncte):**
+
+Corectitudinea Se acordă 5 puncte 2+3 5 puncte stilistică, alegerea pentru corespunderea 2 puncte pentru alegerea registrului stilistic adecvat textului produs. registrului stilistic textelor produse cu 3 puncte...
+
+[limba_romana] "Subiect: Limba și literatura română
+
+Context:
+PROFIL REAL – 100 de pun..."  (match ratio 1.00)
+   span A: 'puncte, dacă au fost comise'
+   span B: 'puncte, dacă au fost comise'
+   full response: **Răspuns și explicație (5 puncte):**
+
+Respectarea normelor Se acordă punctajul 5 5 puncte ortografice şi întreg (5 puncte), dacă Se va scădea câte 1 punct pentru fiecare 2 greşeli ortografice sau gramaticale. numărul de greşeli gramaticale. ortograf...
+
+[limba_romana] "Subiect: Limba și literatura română
+
+Context:
+PROFIL REAL – 100 de pun..."  (match ratio 1.00)
+   span A: 'puncte, dacă au fost comise'
+   span B: 'puncte, dacă au fost comise'
+   full response: **Răspuns și explicație (5 puncte):**
+
+Respectarea normelor Se acordă punctajul 5 5 puncte de punctuaţie. întreg (5 puncte), dacă Se va scădea câte 1 punct pentru fiecare 2 greşeli de punctuaţie. numărul de greşeli de • Se acordă 4 puncte, dacă au fo...
+
+...and 121 more candidates below the top 15 shown.

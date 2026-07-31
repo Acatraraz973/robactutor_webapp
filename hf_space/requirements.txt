@@ -1,0 +1,11 @@
+gradio
+spaces
+torch
+transformers==4.46.0
+peft
+bitsandbytes>=0.46.1
+sentence-transformers
+faiss-cpu
+numpy==1.26.4
+protobuf
+sentencepiece

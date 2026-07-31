@@ -1,0 +1,14 @@
+# Grading-service-only deps (Cloud Run, CPU-only). Deliberately excludes
+# torch's CUDA build, transformers.AutoModelForCausalLM, peft, and
+# bitsandbytes -- this service never loads the generation model, only the
+# two embedding models (via sentence-transformers) + FAISS. That's what
+# keeps this image's RAM footprint CPU-sized. See docs/deployment.md for
+# the actual numbers this was sized against.
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+python-dotenv==1.0.1
+
+sentence-transformers
+faiss-cpu
+numpy==1.26.4

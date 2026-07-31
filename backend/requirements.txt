@@ -1,0 +1,23 @@
+# RoBacTutor backend — Testeaza-te (practice + grade) and Ask.
+# No demo/mock mode: the RAG index, hybrid grading embedder, and question
+# bank all load at import time, and the generation model (base + LoRA
+# adapter) loads lazily on first /ask or /demo/grade-comparison call. A
+# CUDA GPU with ~5GB+ free VRAM is required for real use.
+
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+python-dotenv==1.0.1
+
+torch
+transformers==4.46.0
+peft
+bitsandbytes>=0.46.1
+numpy==1.26.4
+sentence-transformers
+faiss-cpu
+protobuf
+sentencepiece
+
+# NVIDIA Blackwell / RTX 50-series GPUs need the cu128 (or newer) build,
+# which the line above alone won't select — see README "One-time setup".
